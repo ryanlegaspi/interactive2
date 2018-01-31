@@ -19,15 +19,16 @@ body {
 
 .item {
 	height:200px;
-	width: 50%;
+	width: 50%vw;
 	background:DarkSeaGreen;
 	text-align: center;
 	padding-top: 20px;
 	font-size: 30px;
 	color:blue;
-	margin:10px;
-	margin-left: 10px;
-	float:middle;
+
+
+	float:left;
+		}
 
 
 
@@ -36,7 +37,7 @@ body {
 
 	/* uncomment this to get CSS transitions (conflicts with jQuery) */
 	/* transition: all 500ms ease; */
-	}
+
 
 /* example buttons */
 
