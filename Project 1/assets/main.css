@@ -1,0 +1,32 @@
+.container {
+		height: 2000px;
+		position: fixed;
+	    background: linear-gradient(135deg, orange, cyan);
+
+
+			/* reset padding and margins */
+
+			* {
+				margin: 0px;
+				padding: 0px;
+			}
+
+			body {
+				font-family: helvetica, arial, sans-serif;
+			}
+
+
+
+			#triangle {
+				width: 0;
+				height: 0;
+				border-top: 100px solid orange;
+				border-right: 100px solid transparent;
+			}
+
+			#triangle-r {
+				width: 0;
+				height: 0;
+				border-top: 100px solid orange;
+				border-right: 100px solid transparent;
+			}
