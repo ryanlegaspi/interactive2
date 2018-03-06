@@ -1,0 +1,601 @@
+body {
+	background: #cccccc;
+}
+
+.canvas {
+	width: 900px;
+	height: 556px;
+	margin: 100px auto;
+	background: white;
+	position: relative;
+}
+
+.reposition-marker{
+	top:275px;
+	left:190px;
+	position:absolute;
+	z-index:3;
+}
+
+#marker-1{
+	width: 300px;
+	height: 50px;
+	background: linear-gradient(to left,white,blue);
+	top:200px;
+	left:255px;
+	border-bottom-right-radius: 20px;
+	border-top-right-radius: 20px;
+	position:absolute;
+	z-index:1;
+}
+
+#marker-type{
+	font-style:normal;
+	font-size: 20px
+	color: darkblue;
+	position:absolute;
+	z-index:1;
+	top:215px;
+	left:350px;
+}
+#marker-cap{
+	width: 75px;
+	height: 50px;
+	background: blue;
+	top:200px;
+	left:550px;
+	border-bottom-left-radius: 20px;
+	border-top-left-radius: 20px;
+	position:absolute;
+	z-index:1;
+}
+#marker-cap-end{
+	width: 20px;
+	height: 20px;
+	background: blue;
+	top:215px;
+	left:620px;
+	border-bottom-left-radius: 20px;
+	border-top-left-radius: 20px;
+	position:absolute;
+	z-index:1;
+}
+
+.reposition-marker2{
+	top:450px;
+	left:250px;
+	position:absolute;
+	z-index:4;
+	-ms-transform: matrix(1, -0.5, 1, 1, 0, 0); /* IE 9 */
+	    -webkit-transform: matrix(1, -0.3, 0, 1, 0, 0); /* Safari */
+	    transform: matrix(1, -0.3, 0, 1, 0, 0);
+}
+
+#marker-2{
+	width: 300px;
+	height: 50px;
+	background: linear-gradient(to left,white,black);
+	top:200px;
+	left:255px;
+	border-bottom-right-radius: 20px;
+	border-top-right-radius: 20px;
+	position:absolute;
+	z-index:1;
+}
+
+#marker-type2{
+	font-style:normal;
+	font-size: 20px
+	color: black;
+	position:absolute;
+	z-index:1;
+	top:215px;
+	left:350px;
+}
+#marker-cap2{
+	width: 75px;
+	height: 50px;
+	background: black;
+	top:200px;
+	left:550px;
+	border-bottom-left-radius: 20px;
+	border-top-left-radius: 20px;
+	position:absolute;
+	z-index:1;
+}
+#marker-cap-end2{
+	width: 20px;
+	height: 20px;
+	background: black;
+	top:215px;
+	left:620px;
+	border-bottom-left-radius: 20px;
+	border-top-left-radius: 20px;
+	position:absolute;
+	z-index:1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#cup {
+
+	border-bottom:300px solid olive;
+	border-left: 100px solid transparent;
+	border-right:100px solid transparent;
+	height:300px;
+	width: 125px;
+	top:-150px;
+	left:255px;
+	position:absolute;
+	z-index:1;
+}
+#cup-top{
+
+	border-bottom:100px solid olive;
+
+	-moz-border-radius: 50px / 25px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 50px;
+		height:25px;
+		width: 320px;
+		top:390px;
+		left:257px;
+		position:absolute;
+		z-index:1;
+		border-color: white;
+		background: radial-gradient(olive,white);
+}
+
+	#table {
+		width: 900px;
+		height: 300px;
+background: lightgrey;
+		position: absolute;
+		left: 0px;
+		top: 300px;
+
+		}
+
+
+		#table-top {
+			width: 900px;
+			height: 300px;
+	background: lightgrey;
+			position: absolute;
+			left: 0px;
+			top: 0px;
+    background: linear-gradient(lightgrey,darkgrey);
+}
+
+
+
+
+
+
+
+		#tape {
+		 position: relative;
+		 background: darkgrey;
+		 height: 150px;
+		 width: 150px;
+		 left:100px;
+		 top: 350px;
+		 -moz-border-radius:    50px;
+		 -webkit-border-radius: 50px;
+		 border-radius:         50px;
+		}
+
+
+
+		#tape:after {
+		  left: auto;
+		  right: -10px;
+		  -webkit-transform: rotate(140deg);
+		  -moz-transform:    rotate(140deg);
+		  -ms-transform:     rotate(140deg);
+		  -o-transform:      rotate(140deg);
+		}
+
+
+
+
+		#tape-circle {
+		 position: relative;
+		 background: white;
+		 height: 75px;
+		 width: 75px;
+		 left:140px;
+		 top: 225px;
+		 -moz-border-radius:    100px;
+		 -webkit-border-radius: 100px;
+		 border-radius:         100px;
+
+		}
+
+		.reposition{
+			top:-50px;
+			left:100px;
+			position:absolute;
+			z-index:1;
+		}
+
+
+		#cap-top {
+			width: 20px;
+			height: 15px;
+			color:red;
+			top:60px;
+			left:562px;
+			position:absolute;
+			z-index:1;
+		}
+
+		#waterbottle-cap {
+			width: 120px;
+			height: 100px;
+
+			top:80px;
+			left:562px;
+			position:absolute;
+			z-index:1;
+
+			border-bottom: 100px solid lightblue;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	height: 0;
+	width: 78px;
+		}
+
+
+
+
+
+		#waterbottle-top{
+
+				position: relative;
+				width: 175px;
+				height: 100px;
+				margin: 20px 0;
+				background: lightblue;
+				 opacity: 0.9;
+				border-radius: 50% / 10%;
+				color: white;
+				text-align: center;
+				text-indent: .1em;
+				top:150px;
+				left:565px;
+				position:absolute;
+				z-index:1;
+			}
+				#waterbottle-top:before {
+				content: '';
+				position: absolute;
+				top: 10%;
+				bottom: 10%;
+				right: -5%;
+				left: -5%;
+				background: inherit;
+				border-radius: 5% / 50%;
+			}
+
+
+		#waterbottle-bottom{
+
+			  position: relative;
+			  width: 200px;
+			  height: 150px;
+			  margin: 20px 0;
+			  background: lightblue;
+				 opacity: 0.9;
+			  border-radius: 50% / 10%;
+			  color: white;
+			  text-align: center;
+			  text-indent: .1em;
+				top:200px;
+				left:550px;
+				position:absolute;
+				z-index:1;
+			}
+				#waterbottle-bottom:before {
+			  content: '';
+			  position: absolute;
+			  top: 10%;
+			  bottom: 10%;
+			  right: -5%;
+			  left: -5%;
+			  background: inherit;
+			  border-radius: 5% / 50%;
+			}
+
+			#waterbottle-bottom2{
+
+					position: relative;
+					width: 200px;
+					height: 150px;
+					margin: 20px 0;
+					background: lightblue;
+					 opacity: 0.8;
+					border-radius: 50% / 10%;
+					color: white;
+					text-align: center;
+					text-indent: .1em;
+					top:300px;
+					left:550px;
+					position:absolute;
+					z-index:1;
+				}
+					#waterbottle-bottom:before {
+					content: '';
+					position: absolute;
+					top: 10%;
+					bottom: 10%;
+					right: -5%;
+					left: -5%;
+					background: inherit;
+					border-radius: 5% / 50%;
+				}
+
+
+
+				#waterbottle-bottom3{
+
+						position: relative;
+						width: 200px;
+						height: 150px;
+						margin: 20px 0;
+						background: lightblue;
+						 opacity: 0.7;
+						border-radius: 50% / 10%;
+						color: white;
+						text-align: center;
+						text-indent: .1em;
+						top:350px;
+						left:550px;
+						position:absolute;
+						z-index:1;
+					}
+						#waterbottle-bottom:before {
+						content: '';
+						position: absolute;
+						top: 10%;
+						bottom: 10%;
+						right: -5%;
+						left: -5%;
+						background: inherit;
+						border-radius: 5% / 50%;
+					}
+
+
+
+					#waterbottle-bottom4{
+
+							position: relative;
+							width: 200px;
+							height: 150px;
+							margin: 20px 0;
+							background: lightblue;
+							 opacity: 0.3;
+							border-radius: 50% / 10%;
+							color: white;
+							text-align: center;
+							text-indent: .1em;
+							top:400px;
+							left:550px;
+							position:absolute;
+							z-index:1;
+						}
+							#waterbottle-bottom:before {
+							content: '';
+							position: absolute;
+							top: 10%;
+							bottom: 10%;
+							right: -5%;
+							left: -5%;
+							background: inherit;
+							border-radius: 5% / 50%;
+						}
+
+
+.flower-pos{
+	top:20px;
+	left:0px;
+	position:absolute;
+	z-index:1;
+}
+
+
+
+						#stem {
+							width: 350px;
+							height:5px;
+							background: salmon;
+							top:130px;
+							left:250px;
+							position:absolute;
+							z-index: 1}
+
+
+		#flower2 {
+		    background: radial-gradient(yellow,red);
+		    width: 80px;
+		    height: 80px;
+		    position: relative;
+		    text-align: center;
+		    -webkit-transform: rotate(20deg);
+		       -moz-transform: rotate(20deg);
+		        -ms-transform: rotate(20deg);
+		         -o-transform: rotate(20eg);
+
+						 top:100px;
+						 	left: 540px;
+							z-index: 3;
+		}
+		#flower2:before {
+		    content: "";
+		    position: absolute;
+		    top: 0;
+		    left: 0;
+		    height: 80px;
+		    width: 80px;
+		    background: radial-gradient(yellow,red);
+		    -webkit-transform: rotate(135deg);
+		       -moz-transform: rotate(135deg);
+		        -ms-transform: rotate(135deg);
+		         -o-transform: rotate(135deg);
+		}
+
+
+		#flower2:hover {
+		  transition: 0.70s;
+		  -webkit-transition: 0.70s;
+		  -moz-transition: 0.70s;
+		  -ms-transition: 0.70s;
+		  -o-transition: 0.70s;
+		  -webkit-transform: rotate(180deg);
+		  -moz-transform: rotate(180deg);
+		  -o-transform: rotate(180deg);
+		  -ms-transform: rotate(180deg);
+		  transform: rotate(180deg);
+		}
+
+
+
+
+
+
+
+
+		.flower-pos2{
+			top:225px;
+			left:0px;
+			position:absolute;
+			z-index:1;
+			transform: rotate(-30deg);
+		}
+
+
+
+								#stem2 {
+									width: 350px;
+									height:5px;
+									background: salmon;
+									top:130px;
+									left:250px;
+									position:absolute;
+									z-index: 1}
+
+
+				#flower3 {
+				    background: radial-gradient(pink,red);
+				    width: 80px;
+				    height: 80px;
+				    position: relative;
+				    text-align: center;
+				    -webkit-transform: rotate(20deg);
+				       -moz-transform: rotate(20deg);
+				        -ms-transform: rotate(20deg);
+				         -o-transform: rotate(20eg);
+
+								 top:100px;
+								 	left: 540px;
+									z-index: 3;
+				}
+				#flower3:before {
+				    content: "";
+				    position: absolute;
+				    top: 0;
+				    left: 0;
+				    height: 80px;
+				    width: 80px;
+				    background: radial-gradient(pink,red);
+				    -webkit-transform: rotate(135deg);
+				       -moz-transform: rotate(135deg);
+				        -ms-transform: rotate(135deg);
+				         -o-transform: rotate(135deg);
+				}
+
+
+				#flower3:hover {
+				  transition: 0.70s;
+				  -webkit-transition: 0.70s;
+				  -moz-transition: 0.70s;
+				  -ms-transition: 0.70s;
+				  -o-transition: 0.70s;
+				  -webkit-transform: rotate(180deg);
+				  -moz-transform: rotate(180deg);
+				  -o-transform: rotate(180deg);
+				  -ms-transform: rotate(180deg);
+				  transform: rotate(180deg);
+				}
+
+
+
+
+
+
+
+
+
+					#flag {
+ position: absolute;
+ 	border-bottom: 100px solid darkgrey;
+ 	border-left: 100px solid transparent;
+	height: 25px;
+	width: 25px;
+	left:200px;
+	top: 375px;
+	z-index: 2
+;
+ }
+
+
+
+
+ #tape2 {
+ 	width: 30px;
+ 	height: 50px;
+ 	-webkit-transform: skew(-20deg);
+ 	   -moz-transform: skew(-20deg);
+ 	     -o-transform: skew(-20deg);
+ 	background: darkgrey;
+	opacity: 0.4;
+position: absolute;
+	left:300px;
+	top: 375px;
+	z-index: 2
+ }
+
+ #tape2:hover {
+transform: translate(40px, -5px);
+ }
+
+
+#bottlecap{
+	height: 50px;
+	width:75px;
+	position:absolute;
+	color: red;
+	z-index: 3;
+	left: 200px;
+	top:20px;
+
+}

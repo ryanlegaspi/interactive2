@@ -1,0 +1,64 @@
+
+
+
+
+
+
+.container {
+		height: 750px;
+    width: 100vw;
+		overflow-x: hidden;
+		overflow-y: hidden;
+    position: inherit;
+ background:yellow;background: linear-gradient(45deg, yellow, red);		}
+
+
+
+#triangle {
+	width: 0;
+	height: 0;
+
+	border-top: 100px solid #FF4500;
+	border-right: 100px solid transparent;
+	float: left;
+
+	-webkit-transition: width 1s, height 1s, -webkit-transform 1s; /* Safari */
+	transition: width 2s, height 2s, transform 2s;
+}
+
+
+
+#triangle:hover{
+	width: 200px;
+   z-index:800;
+
+  float:left;
+	height: none;
+
+	-webkit-transition: width 1s, height 1s, -webkit-transform 3s; /* Safari */
+	transition: width 1s, height 1s, transform 3s;
+)
+}
+
+
+#triangle-r {
+	width: 0;
+	height: 0;
+	border-bottom: 100px solid orange;
+	border-left: 100px solid transparent;
+  float: left;
+  -webkit-transition: width 1s, height 1s, -webkit-transform 1s; /* Safari */
+	transition: width 1s, height 1s, transform 1s;
+}
+
+
+#triangle-r:hover{
+
+	 transform-origin: bottom left;
+overflow: hidden;
+
+ transform : translate(100px,100px) scale(1);
+
+   -webkit-transition: width 1s, height 1s, -webkit-transform 1s; /* Safari */
+  transition: width 2s, height 2s, transform 2s;
+}
