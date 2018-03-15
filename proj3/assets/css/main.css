@@ -1,0 +1,1298 @@
+body {
+height: 1000px;
+background: yellow;
+
+}
+
+.letter {
+	width: 230px;
+	height: 500px;
+	bottom:0px;
+	position: relative;
+	display: inline-block;
+	float:left;
+	margin: 70px;
+	margin-left: 50px;
+
+}
+
+
+
+.menu {
+	font-size: 200px;
+	font-style: normal;
+	font-family: sans-serif;
+	position: relative;
+	margin-left: 170px;
+	margin-bottom: 100px;
+
+}
+
+.menu1 {
+	font-size: 200px;
+	font-style: normal;
+	font-family: sans-serif;
+	position: relative;
+	margin-left: 170px;
+	margin-top: 170px;
+	margin-bottom: 100px;
+
+}
+
+
+.anchor{
+	display:block;
+	position:relative;
+	margin-left: 150px;
+	margin-top:20px;
+}
+
+.flip:hover {
+	display: inline-block;
+	position:relative;
+	transform: rotateY(360deg);
+	float: left;
+	transition-duration: 1s;
+}
+
+
+
+#a .lt {
+width:100px;
+	    height: 100px;
+			top:100px;
+			border-radius: 50px 0px 0px 0px;
+	    background: black;
+			position:absolute;
+}
+
+
+#a .lb {
+	width:100px;
+		    height: 190px;
+	bottom:100px;
+	background: black;
+	position: absolute;
+		border-radius: 50px 0px 0px 50px;
+}
+
+#a .rb {
+	width:100px;
+		    height: 300px;
+				top:100px;
+	left: 115px;
+	background: black;
+	position: absolute;
+		border-radius: 0px 50px 50px 0px;
+}
+
+
+
+
+#b .lb {
+	width:100px;
+	left:115px;
+		    height: 300px;
+	bottom:100px;
+	background: black;
+	position: absolute;
+		border-radius: 0px 50px 50px 0px;
+}
+
+#b .rb {
+	width:100px;
+		    height: 400px;
+				top:0px;
+	left:0px;
+	background: black;
+	position: absolute;
+		border-radius: 0px 0px 0px 50px;
+}
+
+
+
+#c .lt {
+	width:100px;
+	left:115px;
+			    height: 100px;
+					top:100px;
+					border-radius: 0px 50px 0px 0px;
+			    background: black;
+					position:absolute;
+}
+
+
+
+#c .lb {
+	width:100px;
+	left:115px;
+			    height: 100px;
+					bottom:100px;
+					border-radius: 0px 0px 50px 0px;
+			    background: black;
+					position:absolute;
+}
+
+#c .rb {
+
+	left:0px;
+	width:100px;
+				height: 300px;
+				top:100px;
+
+	background: black;
+	position: absolute;
+		border-radius: 50px 0px 0px 50px;
+}
+
+
+
+
+
+#d .rb {
+	width:100px;
+	left:115px;
+			    height: 400px;
+					bottom:100px;
+					border-radius: 0px 0px 50px 0px;
+			    background: black;
+					position:absolute;
+}
+
+#d .lb {
+
+	left:0px;
+	width:100px;
+				height: 300px;
+bottom:100px;
+background: black;
+	position: absolute;
+		border-radius: 50px 0px 0px 50px;
+}
+
+
+
+#e .lt {
+	width:100px;
+	left:115px;
+			    height: 175px;
+					top:100px;
+					bottom:200px;
+					border-radius: 0px 50px 50px 0px;
+			    background: black;
+					position:absolute;
+}
+
+#e .lb {
+	width:100px;
+	left:115px;
+			    height: 100px;
+					bottom:100px;
+					border-radius: 0px 0px 50px 0px;
+			    background: black;
+					position:absolute;
+}
+
+#e .rb {
+
+	left:0px;
+	width:100px;
+				height: 300px;
+				top:100px;
+background: black;
+	position: absolute;
+		border-radius: 50px 0px 0px 50px;
+}
+
+
+
+
+
+
+#f .lt {
+	width:100px;
+	left:115px;
+			    height: 100px;
+					top:0px;
+					bottom:300px;
+					border-radius: 0px 25px 25px 0px;
+			    background: black;
+					position:absolute;
+}
+
+#f .lb {
+	width:100px;
+left:115px;
+			    height: 100px;
+					top:115px;
+					border-radius: 0px 0px 50px 0px;
+			    background: black;
+					position:absolute;
+}
+
+#f .rb {
+
+
+	width:100px;
+				height: 400px;
+				top:0px;
+				bottom:200px;
+
+	background: black;
+	position: absolute;
+		border-radius: 50px 0px 0px 0px;
+}
+
+
+#g .lt {
+	width:100px;
+ height: 400px;
+left:115px;
+					top:100px;
+					border-radius: 0px 50px 50px 0px;
+			    background: black;
+					position:absolute;
+}
+
+#g .lb {
+	width:100px;
+left:0px;
+top:400px;
+			    height: 100px;
+					bottom:0px;
+					border-radius: 0px 0px 0px 50px;
+			    background: black;
+					position:absolute;
+}
+
+#g .rb {
+width:100px;
+				height: 58%;
+				top:100px;
+background: black;
+	position: absolute;
+		border-radius: 50px 0px 0px 50px;
+}
+
+
+
+
+
+
+#h .rb {
+	width:100px;
+height: 285px;
+top:115px;
+left:115px;
+bottom:0px;
+	background: black;
+	position: absolute;
+		border-radius: 0px 50px 0px 0px;
+}
+
+#h .lb {
+	width:100px;
+		    height: 400px;
+				top:0px;
+				bottom:0px;
+background: black;
+	position: absolute;
+		border-radius: 0px 0px 0px 0px;
+}
+
+
+
+
+
+#i .lb {
+	width:100px;
+left:0px;
+			    height: 285px;
+					bottom:100px;
+					border-radius: 0px 0px 0px 0px;
+			    background: black;
+					position:absolute;
+}
+
+#i .rb {
+width:100px;
+				height:100px;
+				left:0px;
+
+background: black;
+	position: absolute;
+		border-radius: 50px 50px 50px 50px;
+}
+
+
+
+
+#j .lb {
+	width:100px;
+left:0px;
+			    height: 385px;
+					bottom:0px;
+					border-radius: 0px 0px 50px 0px;
+			    background: black;
+					position:absolute;
+}
+
+#j .rb {
+width:100px;
+height:100px;
+left:0px;
+
+background: black;
+	position: absolute;
+		border-radius: 50px 50px 50px 50px;
+}
+
+
+#k .lt {
+	width:100px;
+	left:115px;
+			    height: 150px;
+					top:100px;
+					bottom:200px;
+					border-radius: 0px 0px 50px 0px;
+			    background: black;
+					position:absolute;
+}
+
+#k .lb {
+	width:100px;
+	left:115px;
+			    height: 135px;
+					bottom:100px;
+					border-radius: 0px 50px 0px 0px;
+			    background: black;
+					position:absolute;
+}
+
+#k .rb {
+
+	left:0px;
+	width:100px;
+				height: 400px;
+
+				bottom:100px;
+background: black;
+	position: absolute;
+		border-radius: 50px 0px 0px 50px;
+}
+
+
+#l .rb {
+
+	left:100px;
+	width:100px;
+				height: 400px;
+
+				bottom:100px;
+background: black;
+	position: absolute;
+		border-radius: 15px 15px 15px 15px;
+}
+
+
+#m .lt {
+width:100px;
+	    height: 300px;
+			top:100px;
+			border-radius: 0px 0px 0px 0px;
+	    background: black;
+			position:absolute;
+}
+
+
+
+
+#m .rb {
+	width:100px;
+		    height: 300px;
+				top:100px;
+	left: 115px;
+	background: black;
+	position: absolute;
+		border-radius: 0px 50px 0px 0px;
+}
+
+
+#m .lb {
+	width:100px;
+		    height: 300px;
+				top:100px;
+	left:230px;
+	background: black;
+	position: absolute;
+		border-radius: 0px 50px 0px 0px;
+}
+
+
+
+
+#n .lt {
+	left:50px;
+width:100px;
+	    height: 300px;
+			top:100px;
+			border-radius: 0px 0px 0px 0px;
+	    background: black;
+			position:absolute;
+}
+
+
+#n .rb {
+	width:100px;
+		    height: 300px;
+				top:100px;
+	left: 165px;
+	background: black;
+	position: absolute;
+		border-radius: 0px 50px 0px 0px;
+}
+
+
+#o .rb {
+width:100px;
+	    height: 300px;
+			top:100px;
+			border-radius: 50px 0px 0px 50px;
+	    background: black;
+			position:absolute;
+}
+
+
+#o .lt {
+	width:100px;
+		    height: 300px;
+				top:100px;
+	left: 115px;
+		border-radius: 0px 50px 50px 0px;
+	background: black;
+	position: absolute;
+}
+
+
+#p .lt {
+
+width:100px;
+	    height: 400px;
+			top:100px;
+			left:0px;
+			border-radius: 0px 0px 0px 0px;
+			background: black;
+			position:absolute;
+}
+
+
+#p .rb {
+	width:100px;
+				height: 300px;
+				top:100px;
+	left: 115px;
+	background: black;
+	position:absolute;
+		border-radius: 0px 50px 50px 0px;
+}
+
+
+#q .lt {
+
+width:100px;
+	    height: 300px;
+			top:100px;
+			left:0px;
+			border-radius: 50px 0px 0px 50px;
+			background: black;
+			position:absolute;
+}
+
+
+#q .rb {
+	width:100px;
+				height: 400px;
+				top:100px;
+	left: 115px;
+	background: black;
+	position:absolute;
+		border-radius: 0px 0px 0px 0px;
+}
+
+
+#r .rb {
+width:100px;
+	    height: 300px;
+			top:100px;
+			border-radius: 50px 0px 0px 0px;
+	    background: black;
+			position:absolute;
+}
+
+
+#r .lt {
+	width:100px;
+		    height: 100px;
+				top:100px;
+	left: 115px;
+		border-radius: 0px 50px 0px 0px;
+	background: black;
+	position: absolute;
+}
+
+
+#s .lt {
+width:100px;
+	    height: 185px;
+			top:100px;
+			border-radius: 50px 0px 0px 50px;
+	    background: black;
+			position:absolute;
+}
+
+
+#s .lb {
+	width:100px;
+		    height: 100px;
+	bottom:100px;
+	background: black;
+	position: absolute;
+		border-radius: 0px 0px 0px 50px;
+}
+
+#s .rb {
+	width:100px;
+		    height: 185px;
+				top:215px;
+	left: 115px;
+	background: black;
+	position: absolute;
+		border-radius: 0px 50px 50px 0px;
+}
+
+#s .rt {
+	width:100px;
+		    height: 100px;
+				top:100px;
+	left: 115px;
+	background: black;
+	position: absolute;
+	border-radius: 0px 50px 0px 0px;
+}
+
+
+
+
+
+
+
+#t .lb {
+	width:100px;
+		    height: 400px;
+	bottom:100px;
+	background: black;
+	position: absolute;
+		border-radius: 0px 0px 0px 50px;
+}
+
+#t .rb {
+	width:100px;
+		    height: 100px;
+				bottom:100px;
+	left: 115px;
+	background: black;
+	position: absolute;
+		border-radius: 0px 0px 50px 0px;
+}
+
+#t .rt {
+	width:100px;
+		    height: 100px;
+				top:100px;
+	left: 115px;
+	background: black;
+	position: absolute;
+	border-radius: 0px 50px 0px 0px;
+}
+
+#u .rb {
+width:100px;
+	    height: 300px;
+			top:100px;
+			border-radius: 00px 0px 0px 50px;
+	    background: black;
+			position:absolute;
+}
+
+
+#u .lt {
+	width:100px;
+		    height: 300px;
+				top:100px;
+	left: 115px;
+		border-radius: 0px 0px 0px 0px;
+	background: black;
+	position: absolute;
+}
+
+#v .rb {
+width:100px;
+	    height: 300px;
+			top:100px;
+			border-radius: 0px 0px 0px 50px;
+	    background: black;
+			position:absolute;
+}
+
+
+#v .lt {
+	width:100px;
+		    height: 300px;
+				top:100px;
+	left: 115px;
+		border-radius: 0px 0px 50px 0px;
+	background: black;
+	position: absolute;
+}
+
+
+
+
+#w .rb {
+width:100px;
+	    height: 300px;
+			top:100px;
+			border-radius: 0px 0px 0px 50px;
+	    background: black;
+			position:absolute;
+}
+
+
+#w .lt {
+	width:100px;
+		    height: 300px;
+				top:100px;
+	left: 115px;
+		border-radius: 0px 0px 50px 0px;
+	background: black;
+	position: absolute;
+}
+
+
+#w .lr {
+	width:100px;
+		    height: 300px;
+				top:100px;
+	left: 230px;
+		border-radius: 0px 0px 50px 0px;
+	background: black;
+	position: absolute;
+}
+
+
+
+
+#x .lt {
+	width:100px;
+	left:0px;
+			    height:145px;
+					top:0px;
+					bottom:0px;
+					border-radius: 0px 0px 0px 50px;
+					background: black;
+					position:absolute;
+}
+
+
+
+#x .lb {
+	width:100px;
+	left:0px;
+			    height:145px;
+					top:160px;
+					bottom:0px;
+					border-radius: 50px 0px 0px 0px;
+					background: black;
+					position:absolute;
+}
+
+
+
+#x .rt {
+	width:100px;
+	left:115px;
+			    height:145px;
+					top:0px;
+					bottom:0px;
+					border-radius: 0px 0px 50px 0px;
+					background: black;
+					position:absolute;
+}
+
+#x .rb {
+	width:100px;
+	left:115px;
+			    height:145px;
+					top:160px;
+					bottom:0px;
+					border-radius: 0px 50px 0px 0px;
+					background: black;
+					position:absolute;
+}
+
+
+
+#y .lt {
+
+width:100px;
+	    height: 315px;
+			top:0px;
+			left:0px;
+			border-radius: 0px 0px 0px 50px;
+			background: black;
+			position:absolute;
+}
+
+
+#y .rb {
+	width:100px;
+				height: 430px;
+				top:0px;
+	left: 115px;
+	background: black;
+	position:absolute;
+		border-radius: 0px 0px 50px 0px;
+}
+
+#y .lb {
+	width:100px;
+		    height: 100px;
+				top:330px;
+	bottom:100px;
+	background:black;
+	position: absolute;
+		border-radius: 0px 0px 0px 50px;
+}
+
+
+
+#z .lt {
+width:100px;
+	    height: 100px;
+			top:200px;
+			left:115px;
+			border-radius: 0px 0px 0px 0px;
+	    background: black;
+			opacity: 1;
+			position:absolute;
+}
+
+
+#z .lb {
+	width:100px;
+		    height: 185px;
+	top:0px;
+	left:115px;
+	background: black;
+	position: absolute;
+	opacity: 1;
+		border-radius: 0px 0px 50px 0px;
+}
+
+#z .rb {
+	width:100px;
+		    height: 185px;
+				top:115px;
+	left: 0px;
+	background: black;
+	position: absolute;
+		border-radius: 50px 0px 0px 0px;
+}
+
+#z .rt {
+	width:100px;
+		    height: 100px;
+				top:0px;
+	left: 0px;
+	background: black;
+	position: absolute;
+	border-radius: 0px 0px 0px 0px;
+}
+
+
+
+#zero .rb {
+	width:100px;
+height: 400px;
+top:-100px;
+left:115px;
+bottom:0px;
+	background: black;
+	position: absolute;
+		border-radius: 0px 50px 50px 0px;
+}
+
+#zero .lb {
+	width:100px;
+		    height: 400px;
+				top:-100px;
+				background: black;
+	position: absolute;
+		border-radius: 50px 0px 0px 50px;
+}
+
+
+
+#one .rb {
+
+	left:85px;
+	width:100px;
+				height: 400px;
+
+				top:-100px;
+background: black;
+	position: absolute;
+		border-radius: 15px 15px 15px 15px;
+}
+
+
+
+#two .lt {
+width:100px;
+	    height: 230px;
+			top:-100px;
+			left:115px;
+			border-radius: 0px 50px 50px 0px;
+	    background: black;
+			opacity: 1;
+			position:absolute;
+}
+
+
+#two .lb {
+	width:100px;
+		    height: 100px;
+	bottom:200px;
+	left:115px;
+	background: black;
+	position: absolute;
+	opacity: 1;
+		border-radius: 0px 0px 0px 0px;
+}
+
+#two .rb {
+	width:100px;
+		    height: 230px;
+
+	left: 0px;
+	bottom:200px;
+	background: black;
+	position: absolute;
+		border-radius: 50px 0px 0px 0px;
+}
+
+
+#two .rt {
+	width:100px;
+		    height: 100px;
+				top:-100px;
+	left: 0px;
+	background: black;
+	position: absolute;
+	border-radius: 50px 0px 0px 0px;
+}
+
+
+
+#three .lt {
+width:100px;
+	    height: 195px;
+			top:-100px;
+			left:115px;
+			border-radius: 0px 50px 50px 0px;
+	    background: black;
+			opacity: 1;
+			position:absolute;
+}
+
+
+#three .lb {
+	width:100px;
+		    height: 195px;
+	bottom:200px;
+	left:115px;
+	background: black;
+	position: absolute;
+	opacity: 1;
+		border-radius: 0px 50px 50px 0px;
+}
+
+#three .rb {
+	width:100px;
+		    height: 100px;
+
+	left: 0px;
+	bottom:350px;
+	background: black;
+	position: absolute;
+		border-radius: 0px 0px 0px 0px;
+}
+#three .rb1 {
+	width:100px;
+		    height: 100px;
+
+	left: 0px;
+	bottom:200px;
+	background: black;
+	position: absolute;
+		border-radius: 0px 0px 0px 50px;
+}
+
+#three .rt {
+	width:100px;
+		    height: 100px;
+				top:-100px;
+	left: 0px;
+	background: black;
+	position: absolute;
+	border-radius: 50px 0px 0px 0px;
+}
+
+#four .rb {
+	width:100px;
+height: 230px;
+top:-100px;
+left:0px;
+bottom:200px;
+	background: black;
+	position: absolute;
+		border-radius: 0px 0px 0px 50px;
+}
+
+#four .lb {
+	width:100px;
+	left:115px;
+		    height: 400px;
+				top:-100px;
+				background: black;
+	position: absolute;
+		border-radius: 0px 0px 0px 0px;
+}
+
+
+
+
+#five .lt {
+width:100px;
+	    height: 100px;
+			top:-100px;
+			left:115px;
+			border-radius: 0px 0px 0px 0px;
+	    background: black;
+			opacity: 1;
+			position:absolute;
+}
+
+
+#five .lb {
+	width:100px;
+		    height: 230px;
+	bottom:200px;
+	left:115px;
+	background: black;
+	position: absolute;
+	opacity:1;
+		border-radius: 0px 50px 50px 0px;
+}
+
+#five .rb {
+	width:100px;
+		    height: 100px;
+
+	left: 0px;
+	bottom:200px;
+	background: black;
+	position: absolute;
+		border-radius: 0px 0px 0px 50px;
+}
+
+
+#five .rt {
+	width:100px;
+		    height: 230px;
+				top:-100px;
+	left: 0px;
+	background: black;
+	position: absolute;
+	border-radius: 0px 0px 0px 50px;
+}
+
+
+
+#six .lt {
+width:100px;
+	    height: 100px;
+			top:-100px;
+			left:115px;
+			border-radius: 0px 50px 0px 0px;
+	    background: black;
+			opacity: 1;
+			position:absolute;
+}
+
+
+#six .lb {
+	width:100px;
+		    height: 230px;
+	bottom:200px;
+	left:115px;
+	background: black;
+	position: absolute;
+	opacity:1;
+		border-radius: 0px 50px 50px 0px;
+}
+
+#six .rt {
+	width:100px;
+		    height: 400px;
+				top:-100px;
+	left: 0px;
+	background: black;
+	position: absolute;
+	border-radius: 50px 0px 0px 50px;
+}
+
+
+#seven .lt {
+width:100px;
+	    height: 230px;
+			top:-100px;
+			left:115px;
+			border-radius: 0px 0px 50px 0px;
+	    background: black;
+			opacity: 1;
+			position:absolute;
+}
+
+
+#seven .rb {
+	width:100px;
+		    height: 230px;
+
+	left: 0px;
+	bottom:200px;
+	background: black;
+	position: absolute;
+		border-radius: 50px 0px 0px 0px;
+}
+
+
+#seven .rt {
+	width:100px;
+		    height: 100px;
+				top:-100px;
+	left: 0px;
+	background: black;
+	position: absolute;
+	border-radius: 0px 0px 0px 0px;
+}
+
+
+
+#nine .rb {
+	width:100px;
+height: 230px;
+top:-100px;
+left:0px;
+bottom:200px;
+	background: black;
+	position: absolute;
+		border-radius: 50px 0px 0px 50px;
+}
+
+#nine .lb {
+	width:100px;
+	left:115px;
+		    height: 400px;
+				top:-100px;
+				background: black;
+	position: absolute;
+		border-radius: 0px 50px 50px 0px;
+}
+
+
+#nine .lt {
+	width:100px;
+		    height: 100px;
+
+	left: 0px;
+	bottom:200px;
+	background: black;
+	position: absolute;
+		border-radius: 0px 0px 0px 50px;
+}
+
+
+
+
+
+
+#circle .lt {
+width:100px;
+	    height: 193px;
+			top:-100px;
+			left:0px;
+			border-radius: 50px 0px 0px 50px;
+	    background: black;
+			position:absolute;
+}
+
+
+#circle .lb {
+	width:100px;
+		    height: 193px;
+	bottom:200px;
+	left:0px;
+	background: black;
+	position: absolute;
+		border-radius: 50px 0px 0px 50px;
+}
+
+
+
+#circle .rt {
+width:100px;
+	    height: 193px;
+			top:-100px;
+			left:115px;
+			border-radius: 0px 50px 50px 0px;
+	    background: black;
+			position:absolute;
+}
+
+
+#circle .rb {
+	width:100px;
+		    height: 193px;
+	bottom:200px;
+	left:115px;
+	background: black;
+	position: absolute;
+		border-radius: 0px 50px 50px 0px;
+}
+
+
+
+
+
+
+
+#x2 .lt {
+	width:100px;
+	left:0px;
+			    height:145px;
+					top:0px;
+					bottom:0px;
+					border-radius: 0px 0px 0px 50px;
+					background: yellow;
+					position:absolute;
+}
+
+
+
+#x2 .lb {
+	width:100px;
+	left:0px;
+			    height:145px;
+					top:160px;
+					bottom:0px;
+					border-radius: 50px 0px 0px 0px;
+					background: yellow;
+					position:absolute;
+}
+
+
+
+#x2 .rt {
+	width:100px;
+	left:115px;
+			    height:145px;
+					top:0px;
+					bottom:0px;
+					border-radius: 0px 0px 50px 0px;
+					background: yellow;
+					position:absolute;
+}
+
+#x2 .rb {
+	width:100px;
+	left:115px;
+			    height:145px;
+					top:160px;
+					bottom:0px;
+					border-radius: 0px 50px 0px 0px;
+					background: yellow;
+					position:absolute;
+}
+
+
+#one1 .rb {
+
+	left:85px;
+	width:100px;
+				height: 400px;
+
+				top:0px;
+background: black;
+	position: absolute;
+		border-radius: 15px 15px 15px 15px;
+}
+
+#four1 .rb {
+	width:100px;
+height: 230px;
+top:0px;
+left:0px;
+bottom:200px;
+	background: black;
+	position: absolute;
+		border-radius: 0px 0px 0px 50px;
+}
+
+#four1 .lb {
+	width:100px;
+	left:115px;
+		    height: 400px;
+				top:0px;
+				background: black;
+	position: absolute;
+		border-radius: 0px 0px 0px 0px;
+}
+
+#zero1 .rb {
+	width:100px;
+height: 400px;
+top:0px;
+left:115px;
+bottom:0px;
+	background: black;
+	position: absolute;
+		border-radius: 0px 50px 50px 0px;
+}
+
+#zero1 .lb {
+	width:100px;
+		    height: 400px;
+				top:0px;
+				background: black;
+	position: absolute;
+		border-radius: 50px 0px 0px 50px;
+}
+
+
+
+
+
+
+
+}
