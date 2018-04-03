@@ -1,6 +1,6 @@
 body {
 height: 1000px;
-background: yellow;
+background: #ead93a;
 
 }
 
@@ -42,15 +42,15 @@ background: yellow;
 
 .anchor{
 	display:block;
-	position:relative;
+	position:absolute;
 	margin-left: 150px;
-	margin-top:20px;
+	margin-top:50px;
 }
 
 .flip:hover {
 	display: inline-block;
 	position:relative;
-	transform: rotateY(360deg);
+	transform: rotateY(720deg);
 	float: left;
 	transition-duration: 1s;
 }
