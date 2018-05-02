@@ -1,0 +1,469 @@
+/* reset */
+
+
+
+p{
+  font-size:20px;
+  color: black;
+  width:450px;
+overflow: hidden;
+font-family: monospace;
+height: 300px;
+text-align: left;
+font-style: normal;
+margin-left: 40px;
+
+}
+h6{
+  font-size:16px;
+  color: black;
+  width:450px;
+overflow: hidden;
+font-family: italics;
+padding-top: 15px;
+height:30px;
+text-align: left;
+font-style: normal;
+margin-left: 40px;
+z-index:999;
+
+}
+
+
+* {
+
+    padding: 0px;
+    margin: 0px;
+
+}
+
+head {
+    background-color: black;
+}
+/* type */
+
+h1 {
+    font-family: arial, helvetica, sans-serif;
+    text-align: left;
+    font-size: 25px;
+    padding-top: 15px;
+    padding-left: 15px;
+    position: fixed;
+    color:black;
+    z-index:999;
+    overflow-x: hidden;
+}
+
+    h3 {
+        font-family: arial, helvetica, sans-serif;
+        text-align: left;
+        font-size: 25px;
+        padding-top:25px;
+        padding-left: 30px;
+        color: black;
+        display: block;
+        position: fixed;
+        z-index:999;
+        overflow-x: hidden;
+}
+
+
+h2 {
+  font-family: DrukText-Heavy, arial, helvetica, sans-serif;
+  text-align: left;
+  font-size: 150px;
+  line-height:150px;
+  padding-bottom: 20px;
+  color: black;
+  display:block;
+  z-index:1;
+}
+
+.index-fix{
+  margin-top:50px;
+  position:fixed;
+  display: block;
+ width: 50vw;
+ height: 50vh;
+ top: 0px;
+
+}
+
+.index-fixed{
+  margin-top:-100px;
+  position:fixed;
+  display: block;
+ width: 50vw;
+ height: 50vh;
+ top: 0px;
+ z-index: 999;
+
+}
+
+
+h4 {
+    font-family: arial, helvetica, sans-serif;
+    text-align: left;
+    font-size: 150px;
+    line-height:175px;
+    padding-left: 30px;
+    color: black;
+    display:block;
+    z-index:1;
+    padding-top: 50px;
+}
+
+.heading {
+  font-family: arial, helvetica, sans-serif;
+  text-align: left;
+  font-size: 150px;
+top: 150px;
+  padding-left: 30px;
+  color: black;
+  display:block;
+  z-index:1;
+  position: absolute;
+}
+.heading1 {
+  font-family: arial, helvetica, sans-serif;
+  text-align: left;
+  font-size: 150px;
+top: 300px;
+  padding-left: 30px;
+  color: black;
+  display:block;
+  z-index:1;
+position: absolute;
+}
+
+.heading3 {
+  font-family: arial, helvetica, sans-serif;
+  text-align: left;
+  font-size: 150px;
+top: 450px;
+  padding-left: 30px;
+  color: black;
+  display:block;
+  z-index:1;
+
+  position: absolute;
+}
+
+
+h5 {
+    font-family: arial, helvetica, sans-serif;
+    text-align: left;
+    font-size: 150px;
+    line-height:normal;
+    color: black;
+    display:inline-block;
+    z-index:1;
+}
+
+
+
+
+.container-p{
+  max-width:400px;
+  left:550px;
+  margin-right: 10px;
+  display:block;
+  top: 150px;
+  position: relative;
+
+}
+
+body{
+color: black;
+}
+
+ .heading:hover #photo1 {
+  max-width:250px;
+  min-width: 200px;
+  width: 50%;
+  height: 50%;
+  height: auto;
+  float: right;
+  padding-left: 0px;
+  display:block;
+  filter: blur(0px);
+  z-index: 2;
+  top: 150px;
+}
+
+#photo1  {
+  max-width:250px;
+  min-width: 200px;
+  left:200px;
+  top:300px;
+  display:block;
+  filter: blur(10px);
+  z-index: 2;
+  top: 150px;
+  position: absolute;
+}
+
+
+#photo2  {
+  max-width:250px;
+  min-width: 200px;
+  left:200px;
+  top:400px;
+  display:block;
+  filter: blur(10px);
+  z-index: 2;
+  top: 700px;
+  position: absolute;
+}
+
+
+
+#images{
+  max-width:400px;
+  min-width: 300px;
+  width: 100%;
+  height: 100%;
+  height: auto;
+  float: right;
+  padding-left: 0px;
+  display:block;
+  background-blend-mode: hard-light;
+  top: 150px;
+  position: relative;
+  opacity: .2;
+   filter: invert(0);
+   transition-timing-function:ease-in-out;
+     transition: 2.0s;
+
+}
+
+#images:hover{
+  max-width:400px;
+  min-width: 300px;
+  height: auto;
+  float: right;
+  padding-left: 0px;
+  opacity: 1;
+  display:block;
+  top: 150px;
+  position: relative;
+filter: invert(0);
+transition-timing-function:ease-in-out;
+  transition: 2.0s;
+
+}
+
+
+
+
+#animatePhoto {
+    transition: -webkit-filter 1s, filter 1s;
+    -webkit-filter: invert(0%);
+    filter: invert(0%);
+}
+
+
+
+body {
+    font-family: "DrukText-Heavy";
+    text-align: center;
+    font-size: 200px;
+      line-height:normal;
+      height: 900px;
+      width:100vw;
+      overflow-y: scroll;
+overflow-x: hidden;
+color: black
+
+
+}
+
+h5 {
+  font-family: "DrukText-Heavy";
+  text-align: center;
+  font-size: 200px;
+    line-height:normal;
+    height: 900px;
+    width:100vw;
+    overflow-y: scroll;
+  overflow-x: hidden;
+  color: black;
+
+
+}
+
+
+
+/* structure */
+
+#container {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+	margin: auto;
+  background-color: Black;
+
+}
+
+
+
+
+/* basic hovers */
+
+a {
+	color: black;
+}
+
+a:hover {
+	color: black;
+	text-decoration: none;
+}
+
+
+
+
+.fixed{
+     position:fixed;
+     width: 50vw;
+     height: 50vh;
+     top: 0px;
+   }
+
+
+#images {
+  filter: invert(1);
+  transition-timing-function: ease-in;
+    transition: 1.0s;
+}
+
+
+
+
+
+/* useful */
+
+
+#image-paragraph img {
+	z-index: 1;
+	position: absolute;
+	max-width: 300px;
+	opacity: 0;
+	-webkit-transition: all 1s ease-in-out;
+  -webkit-transform: translate(400px, 0px);
+}
+
+p#image-paragraph:hover img {
+	opacity: 1;
+  	-webkit-transform: translate(0px, 0px);
+}
+
+
+p#image-paragraph #image-1 {
+	top: 20px;
+	left: 80px;
+	-webkit-transition-delay: 0.3s;
+}
+
+p#image-paragraph #image-2 {
+	right: 10px;
+	bottom: 70px;
+	-webkit-transition-delay: .6s;
+}
+
+p#image-paragraph #image-3 {
+	left: 300px;
+	bottom: -100px;
+	-webkit-transition-delay: .8s;
+}
+
+p#image-paragraph #image-4 {
+	right: 90px;
+	top: -100px;
+	-webkit-transition-delay: 1s;
+}
+
+
+
+
+#moving-shape {
+	position: absolute;
+	width: 570px;
+	height: 320px;
+	background-image: url('../img/og_image.png');
+	background-size: cover;
+	background-position: center;
+	top: -50px;
+	left: calc(50% - 285px);
+	display: block;
+	filter: blur(15px);
+	z-index: 0;
+
+	transition: 500ms all;
+	animation: rotating 45s linear infinite;
+}
+
+#three-dimensional:hover #moving-shape {
+    filter: blur(0px);
+    z-index: 2;
+  color:#FF4500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.top {
+	z-index: 1;
+	position: relative;
+}
+
+
+ol{
+  display:
+  block;
+  font-size:150px;
+  margin-left: 30px;
+  color:darkgrey;
+  opacity:1;
+  text-align:left;
+  text-decoration: none;
+
+
+}
+
+ol:hover{
+  display:
+  block;
+  font-size:150px;
+  margin-left: 30px;
+  color:black;
+  opacity:.5;
+  text-align:left;
+  text-decoration: none;
+
+}
+
+
+
+
+a:visited{
+text-decoration: none;
+}
+
+
+a:link{
+  text-decoration: none;
+}
