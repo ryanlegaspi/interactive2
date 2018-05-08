@@ -1,6 +1,15 @@
 <?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
 <bridgedata version='1'>
 	<labels version='1'>
-		<item key='Project 3' label='Redo'/>
+		<item key='project31' label='Approval'/>
+		<item key='Hover States' label='Review'/>
+		<item key='project-3' label='Approval'/>
+		<item key='code for life' label='Review'/>
+		<item key='Project 3_1' label='Redo'/>
+		<item key='Hover' label='Review'/>
+		<item key='Project 1 copy' label='Check'/>
 	</labels>
+	<ratings version='1'>
+		<item key='exercise-charrette 2' rating='5'/>
+	</ratings>
 </bridgedata>
